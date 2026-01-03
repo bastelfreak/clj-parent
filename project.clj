@@ -1,13 +1,13 @@
 (def clj-version "1.11.2")
 (def ks-version "3.5.3")
-(def tk-version "4.2.0")
+(def tk-version "4.3.0-SNAPSHOT")
 (def tk-jetty-10-version "1.1.0")
 (def tk-metrics-version "2.1.0")
 (def logback-version "1.3.16")
 (def rbac-client-version "1.2.0")
 (def dropwizard-metrics-version "3.2.2")
 
-(defproject org.openvoxproject/clj-parent "7.6.4-SNAPSHOT"
+(defproject org.openvoxproject/clj-parent "7.7.0-SNAPSHOT"
   ;; Abort when version ranges or version conflicts are detected in
   ;; dependencies. Also supports :warn to simply emit warnings.
   ;; requires lein 2.2.0+.
